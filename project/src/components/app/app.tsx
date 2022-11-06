@@ -1,5 +1,7 @@
+import Main from '../../pages/main/main';
+import Offers from '../../index';
 function App(): JSX.Element {
-  return <p>Hello, world!</p>;
+  return <Main offer = {Offers.length} />;
 }
 
 export default App;
