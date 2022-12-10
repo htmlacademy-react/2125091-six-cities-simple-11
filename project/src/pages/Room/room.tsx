@@ -321,5 +321,6 @@ function Room(): JSX.Element {
         </div>
       </main>
     </div>
-);
-}
+)};
+
+export default Room;
